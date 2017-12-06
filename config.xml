@@ -42,7 +42,7 @@
  <preference name="target-device" value="handset" />
 <preference name="deployment-target" value="8.0" />
 	 
-	<plugin name="cordova-plugin-badge" spec="0.7.2" source="npm" /> 
+	<!--<plugin name="cordova-plugin-badge" spec="0.7.2" source="npm" />  -->
    
  
    
