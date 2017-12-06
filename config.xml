@@ -35,7 +35,7 @@
     <preference name="android-minSdkVersion" value="10" />
     <preference name="android-targetSdkVersion" value="19" />
     <preference name="android-installLocation" value="auto" />
-<!--	<gap:plugin name="de.appplant.cordova.plugin.badge" source="npm" />-->
+ 	<gap:plugin name="de.appplant.cordova.plugin.badge" source="npm" /> 
 
  <preference name="ios-XCBuildConfiguration-TARGETED_DEVICE_FAMILY" value="1" xcconfigEnforce="true"/>
  
@@ -45,8 +45,7 @@
 	<plugin name="cordova-plugin-badge" spec="0.7.2" source="npm" /> 
    
  
-    <gap:plugin name="org.apache.cordova.console" source="npm" />
- 
+   
     <gap:plugin name="org.apache.cordova.device" source="npm" />
     <gap:plugin name="org.apache.cordova.device-motion" source="npm"/>
     <gap:plugin name="org.apache.cordova.device-orientation" source="npm"/>
@@ -64,7 +63,8 @@
 <icon src="icon.png" />
 
 
-<!-- iPhone 6 / 6+ -->
+<!-- iPhone 6 / 6+  <gap:plugin name="org.apache.cordova.console" source="npm" />
+ -->
 <icon src="images/ios/Icon-App-60x60@3x" platform="ios" width="180" height="180" />
 
 <!-- iPhone / iPod Touch  -->
