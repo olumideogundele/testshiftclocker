@@ -42,7 +42,7 @@
  <preference name="target-device" value="handset" />
 <preference name="deployment-target" value="8.0" />
 	 
-	<!--<plugin name="cordova-plugin-badge" spec="0.7.2" source="npm" />  -->
+	<!--<plugin name="cordova-plugin-badge" spec="0.7.2" source="npm" />   <gap:plugin name="cordova-plugin-file" source="npm"/> -->
    
  
    
@@ -50,7 +50,7 @@
    
     <gap:plugin name="cordova-plugin-device-orientation" source="npm"/>
     <gap:plugin name="cordova-plugin-dialogs" source="npm"/>
-    <gap:plugin name="cordova-plugin-file" source="npm"/>
+  
     <gap:plugin name="cordova-plugin-file-transfer" source="npm"/>
     <gap:plugin name="cordova-plugin-globalization" source="npm"/>
     <gap:plugin name="customer-header-inappbrowser" source="npm"/>
