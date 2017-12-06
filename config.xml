@@ -47,7 +47,7 @@
  
    
   
-    <gap:plugin name="org.apache.cordova.device-motion" source="npm"/>
+   
     <gap:plugin name="org.apache.cordova.device-orientation" source="npm"/>
     <gap:plugin name="org.apache.cordova.dialogs" source="npm"/>
     <gap:plugin name="org.apache.cordova.file" source="npm"/>
@@ -63,7 +63,7 @@
 <icon src="icon.png" />
 
 
-<!-- iPhone 6 / 6+  <gap:plugin name="org.apache.cordova.console" source="npm" />
+<!-- iPhone 6 / 6+  <gap:plugin name="org.apache.cordova.device-motion" source="npm"/> <gap:plugin name="org.apache.cordova.console" source="npm" />
  -->
 <icon src="images/ios/Icon-App-60x60@3x" platform="ios" width="180" height="180" />
 
