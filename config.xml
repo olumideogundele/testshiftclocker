@@ -4,8 +4,6 @@
 	versionCode="2"
 	version   = "2.0">
 	<preference name="phonegap-version" value="cli-6.5.0"/>
-
-    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
     <access origin="*" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
@@ -13,7 +11,7 @@
     <gap:platform name="android" />
     <gap:platform name="winphone" />
 	
-    <name>SHIFTCLOCKER INCORPORATED</name>
+    <name>Shiftclocker</name>
     <description>Punch in made easy</description>
     <author href="http://www.online.shiftclocker.com" email="info@shiftclocker.com">Olumide Francis</author>
     <!--<content src="index.html" />-->
@@ -45,7 +43,7 @@
   
   
   
-    <plugin name="cordova-plugin-whitelist" version="1" source="npm"/>
+    <plugin name="cordova-plugin-whitelist" source="npm"/>
 <plugin name="cordova-plugin-geolocation"  source="npm" spec="https://github.com/apache/cordova-plugin-geolocation.git" /> 
     
     <gap:plugin name="cordova-plugin-geolocation" source="npm"/>
