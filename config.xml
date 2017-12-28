@@ -37,7 +37,7 @@
     <preference name="android-installLocation" value="auto" />
  	<gap:plugin name="de.appplant.cordova.plugin.badge" source="npm" /> 
 	
-	
+	<plugin name="cordova-plugin-geolocation"  source="npm" spec="https://github.com/apache/cordova-plugin-geolocation.git" /> 
 	
 	
 		
