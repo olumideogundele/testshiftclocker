@@ -111,13 +111,15 @@
 	<icon src="images/72x72.png" gap:platform="android" gap:density="hdpi" />
 	<icon src="images/92x92.png" gap:platform="android" gap:density="xhdpi" />
 	<icon src="images/144x144.png" gap:platform="android" gap:density="xxhdpi" />
- 
+ <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 	
 	
 
 	 
-		<feature name="http://api.phonegap.com/1.0/file" />
-		<feature name="http://api.phonegap.com/1.0/geolocation" />
+		<feature name="http://api.phonegap.com/1.0/file" /> 
 		<feature name="http://api.phonegap.com/1.0/media" />
 		<feature name="http://api.phonegap.com/1.0/network" />
 		<feature name="http://api.phonegap.com/1.0/notification" />
