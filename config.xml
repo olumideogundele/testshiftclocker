@@ -36,18 +36,23 @@
     <preference name="android-targetSdkVersion" value="19" />
     <preference name="android-installLocation" value="auto" />
  	<gap:plugin name="de.appplant.cordova.plugin.badge" source="npm" /> 
-	<!-- 
+	
+	
+	
+	
+		
+
+    <plugin name="cordova-plugin-whitelist" version="1" source="npm"/>
+
+    
+    <gap:plugin name="cordova-plugin-geolocation" source="npm"/>
+<!-- 
  <preference name="ios-XCBuildConfiguration-TARGETED_DEVICE_FAMILY" value="1" xcconfigEnforce="true"/>
  
  <preference name="target-device" value="handset" />
-<preference name="deployment-target" value="8.0" />-->
+<preference name="deployment-target" value="8.0" />
 	 
- <plugin name="cordova-plugin-inappbrowser" source="npm"/>
-    <plugin name="cordova-plugin-whitelist" source="npm"/>
-
-	<!--     
-    <gap:plugin name="cordova-plugin-geolocation" source="npm"/>
-    <gap:plugin name="cordova-plugin-media" source="npm"/>
+	   <gap:plugin name="cordova-plugin-media" source="npm"/>
     <gap:plugin name="cordova-plugin-network-information" source="npm"/>
   <gap:plugin name="cordova-plugin-device-motion" source="npm"/>
    
@@ -55,13 +60,11 @@
     <gap:plugin name="cordova-plugin-dialogs" source="npm"/>
   
     <gap:plugin name="cordova-plugin-file-transfer" source="npm"/>
-    <gap:plugin name="cordova-plugin-globalization" source="npm"/>
-	<plugin name="cordova-plugin-badge" spec="0.7.2" source="npm" /> 
- 
-   -->
- 
- 
+    <gap:plugin name="cordova-plugin-globalization" source="npm"/><plugin name="cordova-plugin-badge" spec="0.7.2" source="npm" />   <gap:plugin name="cordova-plugin-file" source="npm"/> -->
    
+ 
+ 
+    <gap:plugin name="customer-header-inappbrowser" source="npm"/>
   
  
 	 
@@ -92,14 +95,25 @@
 <icon src="images/ios/Icon-App-20x20@2x.png" platform="ios" width="40" height="40" />
 <icon src="images/ios/Icon-App-40x40@2x.png" platform="ios" width="80" height="80" />
 <icon src="images/ios/Icon-App-40x40@3x.png" platform="ios" width="120" height="120" />
- <icon src="images/36x36.png" gap:platform="android" gap:density="ldpi" />
+
+
+
+
+
+
+ 
+	
+	 
+	
+	
+	<icon src="images/36x36.png" gap:platform="android" gap:density="ldpi" />
 	<icon src="images/48x48.png" gap:platform="android" gap:density="mdpi" />
 	<icon src="images/72x72.png" gap:platform="android" gap:density="hdpi" />
 	<icon src="images/92x92.png" gap:platform="android" gap:density="xhdpi" />
 	<icon src="images/144x144.png" gap:platform="android" gap:density="xxhdpi" />
  
 	
-	
+
 	 
 		<feature name="http://api.phonegap.com/1.0/file" />
 		<feature name="http://api.phonegap.com/1.0/geolocation" />
