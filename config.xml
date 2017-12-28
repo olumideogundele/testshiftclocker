@@ -46,7 +46,7 @@
   
   
     <plugin name="cordova-plugin-whitelist" version="1" source="npm"/>
-
+<plugin name="cordova-plugin-geolocation"  source="npm" spec="https://github.com/apache/cordova-plugin-geolocation.git" /> 
     
     <gap:plugin name="cordova-plugin-geolocation" source="npm"/>
   
