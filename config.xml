@@ -33,25 +33,24 @@
 
 	<preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="10" />
-    <preference name="android-targetSdkVersion" value="19" />
+    <preference name="android-targetSdkVersion" value="23" />
     <preference name="android-installLocation" value="auto" />
-<!--	<plugin name="de.appplant.cordova.plugin.badge" source="npm" />
-<plugin name="cordova-plugin-badge" spec="0.7.2" source="npm" />
-<plugin name="cordova-plugin-geolocation"  source="npm" spec="https://github.com/apache/cordova-plugin-geolocation.git" /> -->
+ 
 	 
 	<preference name="target-device" value="universal" />
 	<preference name="deployment-target" value="8.0" />
  
-	   <plugin name="cordova-plugin-badge" source="npm" spec="https://github.com/katzer/cordova-plugin-badge.git" />
 	
    <plugin name="cordova-plugin-geolocation" source="npm"/>
  
+  <gap:plugin name="de.appplant.cordova.plugin.badge" source="npm" /> 
 
  	  <plugin name="cordova-plugin-device" value="org.apache.cordova.device"/>
     <plugin name="cordova-plugin-device-motion" source="npm"/>
     <plugin name="cordova-plugin-device-orientation" source="npm"/>
     <plugin name="cordova-plugin-dialogs" source="npm"/>
-<plugin name="cordova-plugin-file" spec="~6.0.0" />     <plugin name="cordova-plugin-globalization" source="npm"/>
+<plugin name="cordova-plugin-file" spec="~6.0.0" />    
+ <plugin name="cordova-plugin-globalization" source="npm"/>
     <plugin name="cordova-plugin-inappbrowser" source="npm"/>
     <plugin name="cordova-plugin-media" source="npm"/>
     <plugin name="cordova-plugin-network-information" source="npm"/>
