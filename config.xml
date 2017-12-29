@@ -13,7 +13,7 @@
     <platform name="android" />
     <platform name="winphone" />
 	
-    <name>--Shiftclocker--</name>
+    <name>Shiftclocker</name>
     <description>Punch in made easy</description>
     <author href="http://www.online.shiftclocker.com" email="info@shiftclocker.com">Olumide Francis</author>
     <!--<content src="index.html" />-->
